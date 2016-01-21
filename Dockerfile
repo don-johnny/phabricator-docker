@@ -1,4 +1,4 @@
-FROM hachque/systemd-none
+FROM tinkerer/opensuse-nonsystemd
 
 # Update base image
 RUN zypper --non-interactive patch || true
